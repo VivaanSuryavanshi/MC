@@ -1,0 +1,60 @@
+<html>
+
+<head>
+    <title> MINECRAFT </title>
+    <script src="fabric.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <center>
+        <h1 class="btn-success">
+            Minecraft
+        </h1>
+        <br>
+        <div id="head_info" class="btn btn-warning">
+            <h2>Current Width= <span id="width"> 30 </span> </h2>
+            <h2>Current Height= <span id="height"> 30 </span> </h2>
+        </div>
+        <button data-toggle="modal" data-target="#myModal" class="btn btn-danger"> <h2> Controls </h2> </button>
+        <br>
+        <br>
+        <br>
+        <canvas width="900" height="500" id="myCanvas"></canvas>
+    </center>
+    <script src="main.js"></script>
+    <div id="myModal" class="modal fade">
+        <div class="modal-content">
+            <div class="madal-header">
+                <button type="button" class="close" data-dismiss="modal"> &times; </button>
+                <h3 class="modal-title"> Controls </h3>
+            </div>
+            <div class="modal-body"> 
+             <ul>
+               <li> Press c for a Cloud </li>
+               <li> Press d for Swap Leaves </li>
+               <li> Press f for Grass </li>
+               <li> Press g for Glow Stone </li>
+               <li> Press l for Lime Wool </li>
+               <li> Press r for Nether Rack </li>
+               <li> Press t for Oak Wood </li>
+               <li> Press w for Bricks </li>
+               <li> Press y for Yellow Bricks </li>
+               <li> Press up arrow key to move up </li>
+               <li> Press left arrow key to move left </li>
+               <li> Press down arrow key to move down </li>
+               <li> Press right arrow key to move right </li>
+               <li> Press Shift & p to increase the block size </li>
+               <li> Press Shift & m to decrease the block size </li>
+             </ul>    
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>
